@@ -17,14 +17,28 @@
 ### Cloud Integration
    We also plan to use popular cloud-based services like Google maps to give the travellers information regarding the state of a traffic route using the data taken from the traffic signals in order to maximize the efficiency of our system. 
 
-### SIGNAL CONTROL RULES:I
-  In order to make our project understand traffic signal rules, we have used the following mathematical formula: 
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
-  The traffic control rules can be assumed as a pair of boolean vectors. In the above-mentioned formula,  is the first set of direction vectors that allows primary traffic to flow.  is the second set of direction vectors which allows the model to let a lane flow if the primary lane has yielded.
-
+### SIGNAL CONTROL RULES
 
 	
-Emergency vehicle detection:
+### Emergency vehicle detection
+   A separate sensor that will transmit the override command for ambulances, police vehicles and other emergency-related situations.
 
-		A separate sensor that will transmit the override command for ambulances, police vehicles and other emergency-related situations.
+### Prerequisites
 
+ - Software:
+   - Windows or Linux operating system
+- Hardware:
+   - Intel 6th Generation based processors
+   - Minimum 8 GB RAM
+- TOOLS
+   - Dockers
+   - Google Map service
+   - Intel OpenVINO
+
+
+### Results
+   The following screenshots is the result of our project after using different videos, captured with different cameras with different angles:
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data1.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data2.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data3.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data4.jpeg)
