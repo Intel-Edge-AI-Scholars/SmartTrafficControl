@@ -14,4 +14,17 @@
    Cameras mounted on the traffic signal will scan the area for car movements. Then it will relay the information to the other adjacent signals and help them make a decision based on the state of traffic on a road. If the path remains clear and safe for a defined period of time  then the signal will change immediately.  Diagram is given below:
 ![Image of Image-edgetotedge](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Image-edgetoedge.jpeg)
 
+### Cloud Integration
+   We also plan to use popular cloud-based services like Google maps to give the travellers information regarding the state of a traffic route using the data taken from the traffic signals in order to maximize the efficiency of our system. 
+
+### SIGNAL CONTROL RULES:I
+  In order to make our project understand traffic signal rules, we have used the following mathematical formula: 
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+  The traffic control rules can be assumed as a pair of boolean vectors. In the above-mentioned formula,  is the first set of direction vectors that allows primary traffic to flow.  is the second set of direction vectors which allows the model to let a lane flow if the primary lane has yielded.
+
+
 	
+Emergency vehicle detection:
+
+		A separate sensor that will transmit the override command for ambulances, police vehicles and other emergency-related situations.
+
