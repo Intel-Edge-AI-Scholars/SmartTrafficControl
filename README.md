@@ -1,11 +1,11 @@
 # Smart Traffic Control Intersection System
 
-# Abstract:
+### Abstract:
    Smart traffic flow as the name suggests that it is basically defining the traffic control and it is a more advanced way to present the traffic control system. We use this system in many areas around the world just look at the traffic flow in most populated cities of the world. They need a system that could solve the traffic flow issues. In this project, we focus on an efficient way of delivering a system that not only saves users time but also it shall help users with time efficiency. 
     There are lots of significance by using this system as there may be no need for the traffic police as all the cars and the passengers are in the eye of the camera and all these cameras are attached to the traffic flow system. The main target problem is formulated as counting the number of vehicles and classifying the driving directions of the vehicles. We divided the driving vehicles by their sizes and their colors and other distinct attributes which gives the users a more precise way to present our ideas.
 
 
-# **Members**
+### **Members**
 1. Muhammad Danial   	                2. Syed Muhammad Masab Hashmi
 3. Muhammad Ahwar               	4. Umair Alam 
 5. Qasim Hasan         		        6. Muhammad Ali 
@@ -18,3 +18,10 @@
 	Smart traffic control system , as the name suggests, is about applying artificial intelligence (Edge based, Cloud based or hybrid) and using sensors and camera to improve the efficiency of the traffic control with little human intervention required.
 	Our project focuses on delivering such a system by enabling dynamic control of the traffic signal based on the number of cars moving. If the road is clear and safe for a defined period of time, the signal will change immediately.
   
+# **FUNCTION**
+   This project is built around the concept of background subtraction algorithm for vehicle counting along with object detection, object tracking, and event classification technique. 
+
+
+### EDGE TO EDGE COMMUNICATION:
+   Cameras mounted on the traffic signal will scan the area for car movements. Then it will relay the information to the other adjacent signals and help them make a decision based on the state of traffic on a road. If the path remains clear and safe for a defined period of time  then the signal will change immediately.  Diagram is given below:
+
