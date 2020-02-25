@@ -38,7 +38,11 @@
 
 ### Results
    The following screenshots is the result of our project after using different videos, captured with different cameras with different angles:
+
 ![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data1.jpeg)
+
 ![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data2.jpeg)
+
 ![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data3.jpeg)
+
 ![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data4.jpeg)
