@@ -5,7 +5,8 @@
 	One of them is the fixed timer. Whether the road is clear or not, the signal will change its color after a number of seconds have passed. This unnecessary waiting not only causes inconvenience but also contributes to other problems like noise pollution, road congestion, etc. To solve this problem, the concept of smart traffic control system was introduced.
 	Smart traffic control system , as the name suggests, is about applying artificial intelligence (Edge based, Cloud based or hybrid) and using sensors and camera to improve the efficiency of the traffic control with little human intervention required.
 	Our project focuses on delivering such a system by enabling dynamic control of the traffic signal based on the number of cars moving. If the road is clear and safe for a defined period of time, the signal will change immediately.
-![Image of Image-edgetotedge](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Flowimage.png)  
+![Image of Image-edgetotedge](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Flowimage.png)
+
 # **FUNCTION**
    This project is built around the concept of background subtraction algorithm for vehicle counting along with object detection, object tracking, and event classification technique. 
 
@@ -39,10 +40,10 @@
 ### Results
    The following screenshots is the result of our project after using different videos, captured with different cameras with different angles:
 
-![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data1.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Result_Data/data1.jpeg)
 
-![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data2.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Result_Data/data2.jpeg)
 
-![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data3.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Result_Data/data3.jpeg)
 
-![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/tree/master/Result_Data/data4.jpeg)
+![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Result_Data/data4.jpeg)
