@@ -1,4 +1,4 @@
-# Smart Traffic Control Intersection System
+# *Smart Traffic Control Intersection System*
 
 ### Introduction
    In spite of successful development over the past decades, vehicle traffic control has been one of the most prominent global issues. While the traditional system has solved a lot of problems related to that, it still has some flaws.
@@ -8,6 +8,9 @@
 	
 ![Image of Image-edgetotedge](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Flowimage.png)
 
+# **CORE CONCEPTS OF OUR DESIGN**
+   This project is built around edge A.I, background subtraction algorithm for vehicle detection along with object detection, object tracking, and event classification technique. This system is also augmented with machine learning algorithms for decision making.
+   
 # **FUNCTION**
    This project is built around the concept of background subtraction algorithm for vehicle counting along with object detection, object tracking, and event classification technique. 
 
@@ -19,8 +22,14 @@
 ### Cloud Integration
    We also plan to use popular cloud-based services like Google maps to give the travellers information regarding the state of a traffic route using the data taken from the traffic signals in order to maximize the efficiency of our system. 
 
-### SIGNAL CONTROL RULES
+### Data Transmission:
+  The data is then transmitted to popular cloud-based services like Google maps to give the travellers information regarding the state of a traffic route using the data taken from the traffic signals in order to maximize the efficiency of our system. 
 
+### SIGNAL CONTROL RULES
+   In order to make our project understand traffic signal rules, we have used the following mathematical formula:
+   	``` T.C = (Pd, Sd) ```
+ The traffic control rules T.C can be assumed as a pair of boolean vectors. In the above-mentioned formula, Pd is the first set of direction vectors that allows primary traffic to flow. Sd is the second set of direction vectors which allows the model to let a lane flow if the primary lane has yielded.
+  Another thing to note is that this project is considering a simple binary traffic light only, with two states; true for green and false for red.
 	
 ### Emergency vehicle detection
    A separate sensor that will transmit the override command for ambulances, police vehicles and other emergency-related situations.
@@ -48,6 +57,10 @@
 ![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Result_Data/data3.jpeg)
 
 ![Image of Result_Data](https://github.com/Intel-Edge-AI-Scholars/SmartTrafficControl/blob/master/Result_Data/data4.jpeg)
+
+# **WORKING MECHANISM**
+   To run the project we need a single edge device which will be working with one embedded signal system. The project is basically designed to work on edge device systems. which is connected on two areas, one is towards camera and second is towards signal. From there it will take input and the output will be displayed in the form of signals. In the input it will be the vehicles' captured by the cameras. Anywhere on the road the car is presented it will move the lights towards that end. We also used sensors and cameras to improve the efficiency of the traffic control with little human intervention required. 
+  This all mechanism follows edge application. Our model is deployed on edge applications and working on edge mechanisms as well. All of the project is on edge but if there may be any issue then we resolve those issues through cloud computing mechanisms. All the issues will be solved and then it will deploy on edge using Machine Learning Algorithms. We shall inter-connect all the devices of the project to the cloud so, when we face any error all the problems will be customized through cloud as we all are inter-connected so this may easily help in resolving any problem any time.
 
 # **FUTURE WORKS**
    - Traffic Signal Violation Detection:
