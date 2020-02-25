@@ -30,13 +30,13 @@
  - Software:
    - Windows or Linux operating system
 - Hardware:
-   - Intel 6th Generation based processors
+   - Intel 6th Generation and above Generation based processors
    - Minimum 8 GB RAM
 - TOOLS
    - Dockers
    - Google Map service
    - Intel OpenVINO
-
+   - OpenCV
 
 ### Results
    The following screenshots is the result of our project after using different videos, captured with different cameras with different angles:
@@ -67,7 +67,7 @@
    - Qasim Hasan   
    - Muhammad Ali 
    - Hanzala Ejaz   
-   - Asad-Ur-Rehman 
+   - Asad-Ur-Rahman 
    - Muhammad Asim   
    - Haseeb Ahmed Khan
 
